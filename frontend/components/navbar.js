@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const Navbar = () => (
-    <div className='flex justify-between w-1/5 p-2 mx-2'>
+    <div className='flex justify-between w-1/5 p-2 mx-2 hover:text-red-600'>
         <Link href="/"> Home </Link> 
         <Link href="/profile"> Profile </Link> 
         <Link href="/register"> Register </Link>  
