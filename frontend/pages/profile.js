@@ -30,6 +30,7 @@ const Profile1 = ({ token }) => {
       console.log(e);
     }
   };
+  // const myArray = text.split(`""`);
 
   return (
     <Layout>
@@ -48,10 +49,10 @@ const Profile1 = ({ token }) => {
             <div>
               <b>Your Token :</b> {token.substring(0, 50)}... <br />
               {/* {JSON.stringify(user)} */}
-              <h1>Your Username :{JSON.stringify(user.username)}</h1>
-              <h1>Your Email :{JSON.stringify(user.email)}</h1>
+              <h1>Your Username : <a>{(user.username)} </a></h1>
+              <h1>Your Email : <a>{(user.email)} </a></h1>
               <h1>
-                Your Facebook : "facebook.com/{JSON.stringify(user.username)}
+                Your Facebook : <a href="facebook.com/{(user.username)}" className="text-blue-500 hover:text-blue-900"> facebook.com/{(user.username)} </a>
               </h1>
             </div>
             <div className="w-full mt-5">
