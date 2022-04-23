@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 const Navbar = () => (
-  <div className="w-full bg-slate-200 ">
-    <div className="flex justify-between bg-slate-200 py-2  ">
+  <div className="w-full bg-slate-50 mb-4">
+    <div className="flex justify-between bg-slate-50 py-2  ">
       <div className="flex mx-2">
         <div className="hover:text-red-600 mx-1 my-0.5 font-mono text-lg">
           <Link href="/"> Home </Link> 
@@ -26,6 +26,7 @@ const Navbar = () => (
         </div>
       </div>
     </div>
+    <hr/>
   </div>
 );
 

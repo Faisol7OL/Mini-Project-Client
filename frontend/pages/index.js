@@ -18,12 +18,9 @@ export default function Home({ token }) {
   return (
     <Layout>
       <Head>
-        {" "}
-        git remote add origin
-        https://github.com/Faisol7OL/Mini-Project-Client.git
         <title>First Page</title>
       </Head>
-      <div className="w-full ">
+      <div className="w-full">
         <div className="">
           <Navbar />
           <h1 className="text-4xl text-blue-700 font-extrabold flex sm:mb-1 md:mb-2 l:mb-2 ml-5">
